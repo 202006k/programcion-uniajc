@@ -1,6 +1,7 @@
 import java.util.Scanner;
+
 public class Cìrculo {
-    public static void maìn(String[] args) {
+    public static void main(String[] args) {
 
         /*
          * 2.11 Calcular y visualizar la longitud de la circunferencia 2*radio*3.1416
