@@ -47,7 +47,7 @@ public class CajeroElectronico {
             return saldo;
         }
 
-        public void tranferir(double cantidad,String destino){
+        public void transferir(double cantidad,String destino){
             if(cantidad<=saldo){
                 System.out.println("se realizo una transferencia por:"+ cantidad +"a:"+ destino +"y su saldo es:" + saldo);
 
