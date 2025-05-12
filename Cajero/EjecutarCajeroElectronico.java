@@ -6,7 +6,9 @@ public class EjecutarCajeroElectronico {
         //se creo el objeto objp1 con saldo inicial de 1000.0
         CajeroElectronico objp1= new CajeroElectronico(1000.0);
 
-        //Ecenario 1
+        //Escenario 
+        System.out.println("------------escenario 1--------------");
+        
         //Depositar 1300 dolares
         System.out.println("nuevo saldo:" + objp1.depositar(1300.0));
 
@@ -18,6 +20,24 @@ public class EjecutarCajeroElectronico {
 
         //tranferir 200 a Medelin
         objp1.transferir(200.0,"Medelin");
+
+        
+        //Escenario 2
+        System.out.println("---------------Escenario 2------------");
+
+        //se creo el objeto objp1 con saldo inicial de 500
+        CajeroElectronico objp2= new CajeroElectronico(500);
+
+        objp2.depositar(200);
+        objp2.retirar(1000.0);
+        objp2.transferir(800.0, "Jhon cano");
+
+
+
+
+
+
+
 
 
 
